@@ -1,0 +1,132 @@
+
+.btn__exit_wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    width: 100%;
+}
+
+.form__exit_ak {
+    max-width: 200px;
+    width: 100%;
+}
+
+.btn__exit {
+}
+
+.link__newStatements {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: sans-serif;
+    color: black;
+    transition: all 0.2s;
+}
+
+.link__newStatements:hover {
+    color: gray;
+    transition: all 0.2s;
+}
+
+.statement__form_add-wrapper {
+    max-width: 500px;
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin-top: 35px;
+    padding: 20px;
+    border: 2px solid #333;   
+    border-radius: 3px;
+}
+.new__statement_title_wrapper {
+
+}
+.new__statement_title {
+    font-family: sans-serif;
+    font-size: 21px;
+    font-weight: 600;
+    text-align: center;
+}
+.statement__form_add {
+    display: flex;
+    flex-direction: column;
+}
+.input__wrapper {
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+.input__wrapper:not(:last-child) {
+    margin-bottom: 25px;
+}
+.input__wrapper p {
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+}
+.input__wrapper .input {
+    max-width: 150px;
+    min-width: 100px;
+    width: 100%;
+    height: 30px;
+    background-color: transparent;
+    border-bottom: 1.5px solid #999999;
+    transition: all 0.3s;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.input__wrapper .input:hover {
+    border-bottom: 1.5px solid #333;
+    transition: all 0.3s;
+}
+.input__wrapper .input:focus {
+    border-bottom: 1.5px solid #333;
+    transition: all 0.3s;
+}
+.input__numberAuto {
+}
+.input__descriptionViolation {
+    max-width: 268px;
+    min-width: 200px;
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #999999;
+    transition: all 0.3s;
+    padding: 5px;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.input__descriptionViolation:hover {
+    transition: all 0.3s;
+    border: 1px solid #333;
+}
+.input__descriptionViolation:focus {
+    transition: all 0.3s;
+    border: 1px solid #333;
+}
+.btn__addStatement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn__add_statement {
+    width: 200px;
+    height: 35px;
+    background-color: #333;
+    border: none;
+    border-radius: 3px;
+    color: #fff;
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: 500;
+    transition: all 0.3s;
+}
+.btn__add_statement:active {
+    transform: scale(0.95);
+    transition: all 0.3s;
+    
+}
